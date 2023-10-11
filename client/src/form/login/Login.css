@@ -50,10 +50,10 @@
     justify-content: center;
     flex-direction: column;
     margin: 5px auto;
+    width: 70%;
 }
 
 .login__input__field {
-    width: 70%;
     margin: 10px auto;
     height: 30px;
     border: none;
