@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add the following styles to your existing Register.css */
+
+.register__container {
+    width: 100%;
+    height: 100%;
+    background-color: #001524;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0px;
+}
+
+.register__form {
+    padding: 10px;
+    height: fit-content;
+    background-color: #fff;
+    border: 2px solid red;
+    border-radius: 18px;
+    /* width: 70%; */
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.register__image__container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0 15px 0;
+}
+
+.register__image__logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.register__heading {
+    font-family: cursive;
+    margin: 10px 0;
+}
+
+.register__text {
+    width: 70%;
+    margin: 5px auto;
+    font-size: 14px;
+}
+
+.register__form__inputs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px auto;
+    width: 80%;
+}
+
+.register__input__field {
+    width: 100%;
+    margin: 10px auto;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.register__button {
+    width: 70%;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: rgb(57, 176, 255);
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+
+.register__button:hover {
+    background-color: transparent;
+    color: rgb(57, 176, 255);
+    border: 1px solid rgb(57, 176, 255);
+}
+
+.register__gender {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.register__gender label {
+    margin: 10px 0;
+    font-weight: bolder;
+}
+
+.register__hear-about label {
+    color: rgb(192, 1, 1);
+}
+
+.register__hear-about {
+    display: flex;
+    flex-direction: column;
+    align-items: start-end;
+    gap: 5px;
+}
+
+.hear-about__field {
+    display: flex;
+    gap: 7px;
+    margin-top: 5px;
+}
+
+.register__city {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.register__city label {
+    margin-right: 10px;
+}
+
+.register__select {
+    width: 150px;
+    height: 30px;
+    border: 1px solid gray;
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.register__state {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+}
