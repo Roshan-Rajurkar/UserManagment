@@ -7,7 +7,7 @@ import { Routes, Route } from "react-router-dom";
 function App() {
 
   useEffect(() => {
-    fetch("http://localhost:5000")
+    fetch("https://usermanagmane-backend.onrender.com")
       .then((res) => res.json())
       .then((data) => setMessage(data.message));
   }, []);
