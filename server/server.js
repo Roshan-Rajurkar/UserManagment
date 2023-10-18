@@ -7,14 +7,9 @@ require("dotenv").config();
 
 const PORT = process.env.PORT || 5000;
 
-// middleware
-const corsOptions = {
-    origin: "https://usermanagment-client.onrender.com",
-}
-
 
 app.use(express.json());
-app.use(cors(corsOptions));
+app.use(cors());
 
 DBconnect();
 
